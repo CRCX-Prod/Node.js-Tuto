@@ -19,16 +19,10 @@ var sqlTest = con.connect(function(err) {
     console.log(result);
 
     sendMail(result[0].Site_ID, result[0].Legacy, result[0].Region);
-
-    /*
-    data.id = String(result[0].Site_ID);
-    data.legacy = String(result[0].Legacy);
-    data.region = String(result[0].Region);
-    */
-
+  
   });
 });*/
-
+ 
 
  var http = require('http');
 
